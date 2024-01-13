@@ -1,0 +1,266 @@
+.formaGris {
+    background-color: #e3939f;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma1{
+    background-color: #fbf9f5;
+    width: 395px;
+    height: 395px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma2{
+    background-color: #e3939f;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma3{
+    background-color: #fbf9f5;
+    width: 385px;
+    height: 385px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma4{
+    background-color: #e3939f;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma5{
+    background-color: #fbf9f5;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma6{
+    background-color: #e3939f;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    animation: rotateCirculo 20s linear infinite;
+}
+
+.formaGris .forma7{
+    background-color: #fbf9f5;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma8{
+    background-color: #e3939f;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma9{
+    background-color: #fbf9f5;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma10{
+    background-color: #e3939f;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    border: 2px dashed #fbf9f5;
+}
+
+.formaGris .forma11{
+    background-color: #fbf9f5;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma12{
+    background-color: #e3939f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .forma13{
+    background-color: #fbf9f5;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris .cosa1 {
+    width: 50px;
+    height: 50px;
+    background-color: #e3939f;
+    border-radius: 50%;
+    position: absolute; 
+    top: 0%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris .cosa2 {
+    width: 48px;
+    height: 48px;
+    background-color: #fbf9f5;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris .cosa3 {
+    width: 42px;
+    height: 42px;
+    background-color: #e3939f;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris .cosa4 {
+    width: 35px;
+    height: 35px;
+    background-color: #fbf9f5;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris .cosa5 {
+    width: 40px;
+    height: 40px;
+    background-color: #e3939f;
+    border-radius: 50%;
+    position: absolute; 
+    top: 100%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris .cosa6 {
+    width: 36px;
+    height: 36px;
+    background-color: #fbf9f5;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris .cosa7 {
+    width: 16px;
+    height: 16px;
+    background-color: #e3939f;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes rotateCirculo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes agrandarCirculo {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}

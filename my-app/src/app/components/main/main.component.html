@@ -1,0 +1,186 @@
+<div class="presentacion">
+    <nav id="navbar">
+        <ul>
+            <li><a href="#persona">Sobre mi</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <div class="title">
+            <h2 class="animacion1">H</h2>
+            <h2 class="animacion1">o</h2>
+            <h2 class="animacion1">l</h2>
+            <h2 class="animacion1">a</h2>
+            <h2 class="animacion1">&nbsp;</h2>
+            <h2 class="animacion1">a</h2>
+            <h2 class="animacion1">m</h2>
+            <h2 class="animacion1">i</h2>
+            <h2 class="animacion1">g</h2>
+            <h2 class="animacion1">o</h2>
+            <h2 class="animacion1">!</h2>
+        </div>
+        <div class="rellax" data-rellax-percentage="0.2" data-rellax-speed="-6" data-rellax-zindex="1">
+            <div class="formas">
+                <app-forma3 class="shape3"></app-forma3>
+                <app-forma1 class="shape1"></app-forma1>
+                <app-forma2 class="shape2"></app-forma2>
+            </div>
+        </div>
+    </div>
+    <div id="persona" class="persona">
+        <h1>IGNACIO</h1>
+        <div class="subrrayado"></div>
+        <ul>
+            <li>
+                <img src="../../../assets/esfuerzo.png" alt="">
+                <p>Resiliencia</p>
+            </li>
+            <li>
+                <img src="../../../assets/colaborar.png" alt="">
+                <p>Colaborativo</p>
+            </li>
+            <li>
+                <img src="../../../assets/organizar.png" alt="">
+                <p>Organizado</p>
+            </li>
+            <li>
+                <img src="../../../assets/creatividad.png" alt="">
+                <p>Creativo</p>
+            </li>
+        </ul>
+    </div>
+    <div class="descripcion">
+        <p class="principal">¡Hola! Soy Ignacio Villarreal, un estudiante de Ingeniería Informática de 20 años de edad,
+            actualmente resido en Paso de la Arena, Uruguay, donde combino mi amor por la tecnología con otras pasiones.
+        </p>
+        <div class="texto">
+            <p>Actualmente cursando mi tercer año en la Universidad Católica del Uruguay. Mi principal enfoque está en
+                el desarrollo de software y la resolución creativa de problemas. Como autodidacta apasionado, aprovecho
+                mis tiempos libres para investigar y llevar a cabo proyectos personales. La constante búsqueda de
+                conocimiento me impulsa a explorar nuevas tecnologías y metodologías, siempre en busca de mejorar mis
+                habilidades.</p>
+            <p>Además de mi compromiso académico, también disfruto de actividades que equilibran mi vida. Soy un
+                entusiasta de los videojuegos y, ya sea disfrutando de tardes de juego en solitario o compartiendo risas
+                con amigos, encuentro en ellos una fuente de diversión y entretenimiento. Recientemente, he incorporado
+                el ejercicio a mi rutina semanal, encontrando en él una forma de mantener un equilibrio saludable en mi
+                vida.</p>
+        </div>
+        <div class="texto">
+            <p>Mi espíritu aventurero se manifiesta en mi amor por los viajes. He tenido la oportunidad de explorar
+                algunos lugares en Argentina y Brasil, así como descubrir la belleza de mi propio país. Sin embargo, mi
+                deseo es extender estas experiencias y explorar diferentes culturas alrededor del mundo.</p>
+            <p>La dedicación y la responsabilidad son valores fundamentales que guían mi trabajo diario. Me esfuerzo por
+                mantenerme actualizado en las últimas tendencias tecnológicas y estoy emocionado por lo que el futuro me
+                depara en mi carrera y en mis proyectos personales.</p>
+        </div>
+    </div>
+    <div id="proyectos" class="proyectos1">
+        <div class="principal">
+            <div class="cont">
+                <div class="forma2"></div>
+                <p>Brian Kernighan.</p>
+                <h2>¡Hello World!<br>El comienzo de toda gran aventura de programación.</h2>
+                <div class="forma3"></div>
+            </div>
+        </div>
+        <div class="otros">
+            <ul>
+                <li>
+                    <a href="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae?</p>
+                        <div class="mas">
+                            <div class="forma1"></div>
+                            <p>Leer</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae?</p>
+                        <div class="mas">
+                            <div class="forma1"></div>
+                            <p>Leer</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae?</p>
+                        <div class="mas">
+                            <div class="forma1"></div>
+                            <p>Leer</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, beatae?</p>
+                        <div class="mas">
+                            <div class="forma1"></div>
+                            <p>Leer</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="proyectos2">
+        <div class="titulo">
+            <h2>Proyectos</h2>
+            <div class="subrrayado"></div>
+        </div>
+        <ul>
+            <li *ngFor="let proyecto of proyectos">
+                <a href="" routerLink="/proyecto/{{proyecto.id}}">
+                    <h3>{{ proyecto.numero }}</h3>
+                    <h2>{{ proyecto.titulo }}</h2>
+                    <p>{{ proyecto.descripcion }}</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="contacto" class="contacto">
+        <div class="titulo">
+            <h2>Contactame</h2>
+            <div class="subrrayado"></div>
+        </div>
+        <div class="mensaje">
+            <p>¡Aprecio tu visita! Siempre estoy abierto a nuevas conexiones y emocionantes charlas sobre tecnología y
+                desarrollo. Si compartes esa pasión o buscas oportunidades, ¡hablemos!<br>Gracias por explorar mi perfil
+            </p>
+        </div>
+        <div class="curriculum">
+            <button class="cv" (click)="abrirCV()">cv</button>
+        </div>
+        <ul class="social">
+            <li>
+                <a target="_blank" href="https://github.com/ignacioVillarreal2003">
+                    <img src="../../../assets/github (1).png" alt="">
+                </a>
+            </li>
+            <li>
+                <a target="_blank"
+                    href="https://www.linkedin.com/in/ignacio-villarreal-518804267/?originalSubdomain=uy">
+                    <img src="../../../assets/linkedin (1).png" alt="">
+                </a>
+            </li>
+            <li>
+                <button (click)="enviarCorreo()">
+                    <img src="../../../assets/sobre.png" alt="">
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div id="cv-content" class="cv-content">
+        <h1>titulo2</h1>
+    </div>
+</div>

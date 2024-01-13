@@ -1,0 +1,240 @@
+.formaGris2 {
+    background-color: #0c283a;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    animation: rotateCirculo 80s linear infinite;
+}
+
+.formaGris2 .forma1{
+    background-color: #fbf9f5;
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris2 .forma2{
+    background-color: #0c283a;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px dashed #fbf9f5; 
+}
+
+.formaGris2 .forma3{
+    background-color: #fbf9f5;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris2 .forma4{
+    background-color: #0c283a;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris2 .forma5{
+    background-color: #fbf9f5;
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    animation: rotateCirculo 70s linear infinite;
+}
+
+.formaGris2 .forma6{
+    background-color: #0c283a;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris2 .forma7{
+    background-color: #fbf9f5;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    animation: rotateCirculo 60s linear infinite;
+}
+
+.formaGris2 .forma8{
+    background-color: #0c283a;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.formaGris2 .forma9{
+    background-color: #fbf9f5;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+
+.formaGris2 .cosa1 {
+    width: 35px;
+    height: 35px;
+    background-color: #0c283a;
+    border-radius: 50%;
+    position: absolute; 
+    top: 0%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris2 .cosa2 {
+    width: 32px;
+    height: 32px;
+    background-color: #fbf9f5;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris2 .cosa3 {
+    width: 28px;
+    height: 28px;
+    background-color: #0c283a;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris2 .cosa4 {
+    width: 26px;
+    height: 26px;
+    background-color: #fbf9f5;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris2 .cosa7 {
+    width: 16px;
+    height: 16px;
+    background-color: #0c283a;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris2 .cosa5 {
+    width: 30px;
+    height: 30px;
+    background-color: #0c283a;
+    border-radius: 50%;
+    position: absolute; 
+    top: 100%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris2 .cosa6 {
+    width: 26px;
+    height: 26px;
+    background-color: #fbf9f5;
+    border-radius: 50%;
+    top: 0%; 
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formaGris2 .cosa8 {
+    width: 18px;
+    height: 18px;
+    background-color: #0c283a;
+    border-radius: 50%;
+    position: absolute; 
+    top: 100%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes rotateCirculo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes agrandarCirculo {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
